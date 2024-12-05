@@ -151,7 +151,7 @@ struct OnboardingView: View {
                                     RoundedRectangle(cornerRadius: 12)
                                         .frame(width: 220, height: 56)
                                         .foregroundStyle(Color.purple)
-                                    Text("Get Started")
+                                    Text("Get Started".localized(language))
                                         .font(.interSemiBold(16))
                                         .foregroundStyle(Color.white)
                                 }

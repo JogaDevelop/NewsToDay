@@ -10,7 +10,7 @@ import Foundation
 @MainActor
 final class ProfileViewModel: ObservableObject {
     @Published var user: UserModel? = nil
-    @Published var selectedAvatar = "chinatown"
+    @Published var selectedAvatar = "chinatown"  
     
     var userName: String {
         guard let user else { return ""}
