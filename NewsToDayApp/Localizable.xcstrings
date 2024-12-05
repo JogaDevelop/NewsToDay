@@ -81,6 +81,17 @@
         }
       }
     },
+    "Cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
+          }
+        }
+      }
+    },
     "Categories" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -98,7 +109,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Выбирай"
+            "value" : "Выбрал"
           }
         }
       }
@@ -246,6 +257,7 @@
       }
     },
     "Get Started" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -278,6 +290,12 @@
       }
     },
     "Key" : {
+      "extractionState" : "manual"
+    },
+    "Key 1" : {
+      "extractionState" : "manual"
+    },
+    "Key 2" : {
       "extractionState" : "manual"
     },
     "Language" : {
