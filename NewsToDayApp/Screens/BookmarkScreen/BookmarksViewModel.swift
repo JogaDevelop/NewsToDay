@@ -13,7 +13,7 @@ final class BookmarksViewModel: ObservableObject {
     /// Published property to store a set of bookmarks.
     @Published var bookmarks: Set<ArticleDTO> = []
   
-    private var bookmarkManager: IBookMarks
+    private var bookmarkManager: IBookMarks 
     
     // MARK: - Initializer
     
