@@ -14,7 +14,7 @@ struct SearchBar: View {
     
     private struct Drawing {
         static let iconPadding: CGFloat = 12
-        static let iconName: String = "magnifyingglass"
+        static let iconName: String = "magnifyingglass" 
         static let textFieldHeight: CGFloat = 55
         static let backgroundColorOpacity: Double = 0.2
         static let cornerRadius: CGFloat = 12
