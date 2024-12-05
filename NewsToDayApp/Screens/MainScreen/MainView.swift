@@ -84,7 +84,7 @@ extension MainView {
     private func NewsScrollView() -> some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
-                if !viewModel.getCategoryNews().isEmpty {
+                if !viewModel.getCategoryNews().isEmpty{
                     ForEach(viewModel.getCategoryNews()) { article in
                         NavigationLink {
                             DetailView(article)
